@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, redirect, url_for
 
 from forms import Plytoteka
-from models import plytoteka
+from models import plytoteka 
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "nininini"

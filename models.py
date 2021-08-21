@@ -1,6 +1,5 @@
 import json
 
-
 class Plytoteka:
     def __init__(self):
         try:
